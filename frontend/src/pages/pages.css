@@ -1,0 +1,33 @@
+
+.home{
+    background-color: #1f8c2192;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container{
+    border: 1px solid  white;
+    padding: 2rem 1.5rem;
+    /* min-width:60%; */
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+main{
+    flex:1;
+    border: 2px solid #ffffff;
+    background-color: var(--body-color);
+    border-radius: 20px;
+    backdrop-filter: blur(4.5px);
+    overflow: auto;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+
+
+}
