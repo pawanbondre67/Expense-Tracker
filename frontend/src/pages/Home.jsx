@@ -32,15 +32,18 @@ const Home = () => {
 
   return (
     <div className="home">
-    <div className="container">
+     <div className="container">
+
         <Navigations  active={active} setActive={setActive}/>
+
        <main>
     
      {displaydata()}
           
        </main>
         
-    </div>
+     </div>
+    
     </div>
     
   )

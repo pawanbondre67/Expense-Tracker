@@ -3,17 +3,20 @@
     background-color: #1f8c2192;
     height: 100vh;
     width: 100vw;
-
+    
+   
 }
 
 .container{
-    border: 1px solid  white;
-    padding: 2rem 1.5rem;
+    /* border: 1px solid  rgb(172, 47, 47); */
     /* min-width:60%; */
+    padding: 2rem 1.5rem;
+    margin: 20px;
     height: 100%;
     display: flex;
     overflow: hidden;
     gap: 1rem;
+    background-color: rgb(180, 78, 78);
 }
 
 main{
@@ -24,10 +27,12 @@ main{
     backdrop-filter: blur(4.5px);
     overflow: auto;
     overflow-x: hidden;
+    height : 100%;
 
-    &::-webkit-scrollbar{
-        width: 0;
+  
     }
+main::-webkit-scrollbar{
+        width: 0;
 
 
 }
