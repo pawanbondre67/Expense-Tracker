@@ -3,15 +3,17 @@
     background-color: #1f8c2192;
     height: 100vh;
     width: 100vw;
+
     
    
 }
+
 
 .container{
     /* border: 1px solid  rgb(172, 47, 47); */
     /* min-width:60%; */
     padding: 2rem 1.5rem;
-    margin: 20px;
+   
     height: 100%;
     display: flex;
     overflow: hidden;
